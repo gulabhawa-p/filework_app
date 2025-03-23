@@ -1,0 +1,85 @@
+# Flutter/Dart specific files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+*.iml
+.idea/
+.vscode/
+.android/
+.ios/
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+
+# Firebase configuration file - generally not committed to version control for security reasons
+filework_app/android/app/google-services.json
+filework_app/ios/Runner/GoogleService-Info.plist
+filework_app/ios/firebase_app_id_file.json
+.firebaserc
+firebase.json
+
+# Flutter build output directories
+app.*.symbols
+app.*.map.json
+/build/
+
+# Android Studio
+/android/.gradle
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/app/.cxx
+/android/local.properties
+/android/key.properties
+
+# iOS specific
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/ephemeral/
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app.framework
+/ios/Flutter/flutter_assets/
+/ios/ServiceDefinitions.json
+/ios/Runner.xcworkspace/xcshareddata/
+/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+
+# macOS
+/macos/Flutter/ephemeral/
+/macos/Flutter/Flutter-Debug.xcconfig
+/macos/Flutter/Flutter-Release.xcconfig
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/macos/Pods/
+
+# Web
+/web/favicon.png
+/web/icons/
+/web/manifest.json
+
+# Windows
+/windows/flutter/ephemeral/
+/windows/flutter/generated_plugin_registrant.cc
+/windows/flutter/generated_plugin_registrant.h
+/windows/flutter/generated_plugins.cmake
+
+# Linux
+/linux/flutter/ephemeral/
+/linux/flutter/generated_plugin_registrant.cc
+/linux/flutter/generated_plugin_registrant.h
+/linux/flutter/generated_plugins.cmake
+
+# Coverage
+coverage/
+
+# Various other project files
+*.env
+*.env.local
+*.env.development
+*.env.test
+*.env.production 
